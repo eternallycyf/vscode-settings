@@ -85,7 +85,7 @@
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "editor.find.addExtraSpaceOnTop": false,
   "editor.inlineSuggest.enabled": true,
-  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.multiCursorModifier": "alt",
   "editor.suggestSelection": "first",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.stickyScroll.enabled": false,
