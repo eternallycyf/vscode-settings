@@ -1,84 +1,52 @@
 {
-{
   "border代码段": {
     "prefix": "border",
-    "body": [
-      "border:1px solid #ccc;",
-    ],
+    "body": ["border:1px solid #ccc;"],
     "description": "border代码段"
   },
   "for循环代码段": {
     "prefix": "for",
-    "body": [
-      "for(let i=0;i<.length;i++){",
-      "${1:}",
-      "",
-      "}"
-    ],
+    "body": ["for(let i=0;i<.length;i++){", "${1:}", "", "}"],
     "description": "for循环代码段"
   },
   "function代码段": {
     "prefix": "function",
-    "body": [
-      "function ${1:}(${2:}){",
-      "${3:}",
-      "",
-      "",
-      "}"
-    ],
+    "body": ["function ${1:}(${2:}){", "${3:}", "", "", "}"],
     "description": "function代码段"
   },
   "console.log代码段": {
     "prefix": "console",
-    "body": [
-      "console.log(${1:})"
-    ],
+    "body": ["console.log(${1:})"],
     "description": "console代码段"
   },
   "console.log": {
     "prefix": "log",
-    "body": [
-      "console.log(${1:})"
-    ],
+    "body": ["console.log(${1:})"],
     "description": "console代码段"
   },
   "setInterval代码段": {
     "prefix": "setInterval",
-    "body": [
-      "setInterval(function() {",
-      "${1:}",
-      "},1000);",
-    ],
+    "body": ["setInterval(function() {", "${1:}", "},1000);"],
     "description": "setInterval代码段"
   },
   "setTimeout代码段": {
     "prefix": "setTimeout",
-    "body": [
-      "setTimeout(function () {",
-      "${1:}",
-      "},1000);",
-    ],
+    "body": ["setTimeout(function () {", "${1:}", "},1000);"],
     "description": "setInterval代码段"
   },
   "clearInterval代码段": {
     "prefix": "clearInterval",
-    "body": [
-      "clearInterval(timeId);",
-    ],
+    "body": ["clearInterval(timeId);"],
     "description": "clearInterval代码段"
   },
   "clearTimeout代码段": {
     "prefix": "clearTimeout",
-    "body": [
-      "clearTimeout(timeId);",
-    ],
+    "body": ["clearTimeout(timeId);"],
     "description": "clearTimeout代码段"
   },
   "list-style代码段": {
     "prefix": "list",
-    "body": [
-      "list-style: none;",
-    ],
+    "body": ["list-style: none;"],
     "description": "list-style代码段"
   },
   "sort代码段": {
@@ -93,9 +61,7 @@
   },
   "删除注释正则代码段": {
     "prefix": "zhushi",
-    "body": [
-      "/\\*(.|\\r\\n|\\n)*?\\*/|\/\/.*",
-    ],
+    "body": ["/\\*(.|\\r\\n|\\n)*?\\*/|//.*"],
     "description": "删除注释正则代码段"
   },
   // "Vue-html初始化": {
@@ -188,7 +154,7 @@
       "}",
       "</script>",
       "<style scoped lang=\"less\">",
-      "</style>",
+      "</style>"
     ],
     "description": "vue单文件页面-当前文件名"
   },
@@ -220,7 +186,7 @@
       "}",
       "</script>",
       "<style scoped lang=\"less\">",
-      "</style>",
+      "</style>"
     ],
     "description": "vue单文件页面-上级文件夹"
   },
@@ -247,7 +213,7 @@
       "ReactDOM.render(\t\t, document.getElementById(\"root\"))",
       "</script>",
       "</body>",
-      "</html>",
+      "</html>"
     ],
     "description": "react初始化"
   },
@@ -274,7 +240,7 @@
       "",
       "</script>",
       "</body>",
-      "</html>",
+      "</html>"
     ],
     "description": "HTML5"
   },
@@ -297,7 +263,7 @@
       "var ctx = myCanvas.getContext('2d');",
       "</script>",
       "</body>",
-      "</html>",
+      "</html>"
     ],
     "description": "Canvasmuban"
   },
@@ -318,9 +284,9 @@
       "}",
       "}]",
       "}"
-    ],
+    ]
   },
-   "constructor代码段": {
+  "constructor代码段": {
     "prefix": "constructor",
     "body": [
       "constructor(props) {",
@@ -335,17 +301,11 @@
   },
   "componentDidMount-react": {
     "prefix": "componentDidMount",
-    "body": [
-      "componentDidMount(){",
-      "${1:}",
-      "}"
-    ],
+    "body": ["componentDidMount(){", "${1:}", "}"]
   },
   "export default代码段": {
     "prefix": "ed",
-    "body": [
-      "export default ${1:}",
-    ],
+    "body": ["export default ${1:}"]
   },
   "react-类组件-上层文件名": {
     "prefix": "crc",
@@ -362,7 +322,7 @@
       "\t\t\t)",
       "\t\t}",
       "}"
-    ],
+    ]
   },
   "react-类组件-文件名": {
     "prefix": "crcc",
@@ -379,7 +339,7 @@
       "\t\t\t)",
       "\t\t}",
       "}"
-    ],
+    ]
   },
   "edf-函数组件-上层文件名": {
     "prefix": "edf..",
@@ -397,7 +357,7 @@
       ")",
       "}",
       "export default ${1:${TM_DIRECTORY/.*\\/(.*)$/$1/g}}"
-    ],
+    ]
   },
   "edf-函数组件-文件名": {
     "prefix": "edf",
@@ -407,7 +367,7 @@
       "interface I${1:$TM_FILENAME_BASE}Props {",
       "}",
       "const ${1:$TM_FILENAME_BASE}: FC<I${1:$TM_FILENAME_BASE}Props> = (props) => {",
-      "const {} = props;"
+      "const {} = props;",
       "return (",
       "\t<div className={styles.page}>",
       "\t\t${1:$TM_FILENAME_BASE}",
@@ -415,7 +375,7 @@
       ")",
       "}",
       "export default ${1:$TM_FILENAME_BASE}"
-    ],
+    ]
   },
   "edf-函数组件+Ref-上层文件名": {
     "prefix": "edref..",
@@ -437,7 +397,7 @@
       ")",
       "}",
       "export default ${1:${TM_DIRECTORY/.*\\/(.*)$/$1/g}}"
-    ],
+    ]
   },
   "edf-函数组件+Ref-文件名": {
     "prefix": "edref",
@@ -459,19 +419,15 @@
       ")",
       "}",
       "export default ${1:$TM_FILENAME_BASE}"
-    ],
+    ]
   },
   "import-react": {
     "prefix": "ir",
-    "body": [
-      "import React from 'react';",
-    ],
+    "body": ["import React from 'react';"]
   },
   "useState-hook": {
     "prefix": "useState",
-    "body": [
-      "const [${1:state}, set${1:/upcase} ] = useState(${2:null})",
-    ],
+    "body": ["const [${1:state}, set${1:/upcase} ] = useState(${2:null})"]
   },
   "useEffect-hook": {
     "prefix": "useEffect",
@@ -482,7 +438,6 @@
       "${2:cleanup}",
       "}",
       "}, [${3:input}])"
-    ],
-  },
-}
+    ]
+  }
 }
