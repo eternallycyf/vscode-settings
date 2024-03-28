@@ -21,7 +21,7 @@
     "johnpapa.winteriscoming",
     "lehni.vscode-fix-checksums",
     "maggie.eslint-rules-zh-plugin",
-    "moalamri.inline-fold",
+    "mpontus.tab-cycle",
     "mrmlnc.vscode-csscomb",
     "ms-azuretools.vscode-docker",
     "ms-ceintl.vscode-language-pack-zh-hans",
@@ -31,6 +31,7 @@
     "oderwat.indent-rainbow",
     "russell.any-rule",
     "shenjiaolong.vue-helper",
+    "stivo.tailwind-fold",
     "streetsidesoftware.code-spell-checker",
     "stylelint.vscode-stylelint",
     "unifiedjs.vscode-mdx",
@@ -39,9 +40,9 @@
     "vue.volar",
     "withfig.fig",
     "xiaoxintongxue.var-conv",
+    "xuzhiwei.less-vars",
     "yoavbls.pretty-ts-errors",
     "yrm.type-challenges",
-    "zakudriver.nyan-mode",
-    "xuzhiwei.less-vars"
+    "zakudriver.nyan-mode"
   ]
 }

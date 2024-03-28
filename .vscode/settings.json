@@ -827,4 +827,6 @@
   "workbench.preferredHighContrastLightColorTheme": "Visual Studio Dark",
   "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
   "window.systemColorTheme": "dark",
+  "gitlens.views.tags.branches.layout": "list",
+  "gitlens.views.commitDetails.files.layout": "tree"
 }
