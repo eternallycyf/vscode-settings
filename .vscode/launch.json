@@ -239,7 +239,14 @@
       ],
       "url": "http://localhost:5173",
       "webRoot": "${workspaceFolder}"
-    }
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "vite-react",
+      "url": "http://localhost:8000",
+      "webRoot": "${workspaceFolder}"
+    },
   ],
   "inputs": [
     {
